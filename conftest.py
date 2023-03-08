@@ -8,5 +8,4 @@ def set_size_browser_window():
 
 @pytest.fixture()
 def google_find():
-    browser.config.hold_browser_open = True
     browser.open('https://google.com')
